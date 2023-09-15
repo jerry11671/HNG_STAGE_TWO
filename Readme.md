@@ -77,19 +77,19 @@ python manage.py runserver
    
 - To add a new person  : POST :<br>
 
-    http://localhost:8000/api
+  https://www.hngtask.pythonanywhere.com/api/
 - To get a person by id : GET:<br>
-  http://localhost:8000/api/{id}
+  https://www.hngtask.pythonanywhere.com/api/{id}/
 
 - To uodate a person's data by id :<br>
 PUT:<br>
-http://localhost:8000/api/{id}<br>
+  https://www.hngtask.pythonanywhere.com/api/{id}/<br>
 
 - To delete a person by id:<br> 
-  http://localhost:8000/api/{id}
+  https://www.hngtask.pythonanywhere.com/api/{id}/
 
 # Example 1<br>
-POST : http: // localhost: 800 /api<br>
+POST : https://www.hngtask.pythonanywhere.com/api<br>
 JSON : {
     <br>
     "name" : "Chisom"<br>
@@ -104,7 +104,7 @@ JSON : {
 
 ## Example 2 <br>
 
-GET: http : // localhost : 8000 /api/ {id}<br>
+GET: https://www.hngtask.pythonanywhere.com/api {id}<br>
 
 ## Response <br>
 { <br><br>
